@@ -8,10 +8,10 @@
 2. **CSS를 파싱 후, [CSSOM](#gear-cssom)트리를 구축합니다.**
 3. **Javascript를 실행합니다.**
    - 주의! HTML 중간에 스크립트가 있다면 HTML 파싱이 중단됩니다.
-4. **DOM과 CSSOM을 조합하여 렌더트리(Render Tree)를 구축합니다.**
+4. **DOM과 CSSOM을 조합하여 [렌더트리](#gear-렌더트리)를 구축합니다.**
    - 주의! `display: none` 속성과 같이 화면에서 보이지도 않고 공간을 차지하지 않는 것은 렌더트리로 구축되지 않습니다.
-5. **뷰포트 기반으로 렌더트리의 각 노드가 가지는 정확한 위치와 크기를 계산합니다. (Layout/Reflow 단계)**
-6. **계산한 위치/크기를 기반으로 화면에 그립니다. (Paint 단계)**
+5. **뷰포트 기반으로 렌더트리의 각 노드가 가지는 정확한 위치와 크기를 계산합니다. ([Layout](#gear-layout) 단계)**
+6. **계산한 위치/크기를 기반으로 화면에 그립니다. ([Paint](#gear-paint) 단계)**
 
 <br>
 
@@ -41,6 +41,18 @@
 
 - **CSSOM(CSS Object Model)이란?** CSS 내용을 파싱하여 자료를 구조화 한 것을 CSSOM이라고 합니다. 즉 DOM처럼 CSS의 내용을 해석하고 노드를 만들어 트리 구조로 만든 것을 CSSOM이라 합니다.
 
+### :gear: 렌더트리
+
+- **렌더트리(Render Tree)란?** 렌더 트리는 CSSOM과 DOM 트리의 결합으로 만들어집니다. 렌더 트리는 웹 페이지에 나타낼 각 요소들의 위치(Layout, 레이아웃)을 계산하는데 사용되고 픽셀을 화면에 렌더링하는 페인트(Paint) 즉 화면에 요소들을 표현하는 프로세스를 위해 존재합니다.
+
+### :gear: Layout
+
+- **Layout(Reflow)이란?** 뷰포트 내에서 노드의 정확한 위치와 크기를 계산합니다. 이것이 바로 'Layout' 단계이며 경우에 따라 'Reflow' 라고도 합니다.
+
+### :gear: Paint
+
+- **Paint란?** 노드와 해당 노드의 계산된 스타일 및 기하학적 형태에 대해 파악했으므로, 렌더링 트리의 각 노드를 화면의 실제 픽셀로 변환하는 마지막 단계에 이러한 정보를 전달합니다. 이 단계를 흔히 '페인팅' 또는 '래스터화'라고 합니다.
+
 <br>
 
 ## 참고
@@ -51,3 +63,5 @@
 - [Blog, 파싱이란? 파싱의 뜻은 무엇일까?(번역)](https://oneroomtable.tistory.com/entry/%ED%8C%8C%EC%8B%B1%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C-%EB%B2%88%EC%97%AD)
 - [Blog, DOM이란? 가상 돔 (Virtual DOM )이 나오게 된 이유](https://dev-cini.tistory.com/10)
 - [Blog, CSSOM(CSS Object Model) 이란?](https://itworldyo.tistory.com/151)
+- [Blog, 렌더 트리 (Render Tree)](https://sgcomputer.tistory.com/172)
+- [Blog, 레이아웃(리플로우) 및 페인트](https://velog.io/@seokkitdo/%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EB%A6%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%B0%8F-%ED%8E%98%EC%9D%B8%ED%8A%B8)
