@@ -26,7 +26,7 @@
 
 ## :star: 중요도5
 
-- [브라우저의 렌더링 과정](https://github.com/Esoolgnah/Frontend-Interview-Questions/main/Notes/important-5/browser-rendering.md) - 홈페이지가 사용자에게 보여지는 순서에 대해 설명해주세요.
+- [브라우저의 렌더링 과정](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/browser-rendering.md) - 홈페이지가 사용자에게 보여지는 순서에 대해 설명해주세요.
 
 <br>
 
