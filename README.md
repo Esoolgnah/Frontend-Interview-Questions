@@ -14,21 +14,19 @@
 
 ## :tada: 소개
 
-취업 준비를 하면서 알게된 프론트엔드 분야의 면접 질문들과 답을 요약, 정리하고 있습니다.
+취업 준비를 하면서 알게된 프론트엔드 분야의 면접 질문들과 답을 용어 해석과 함께 정리하고 있습니다.
 
-https://realmojo.tistory.com/300
-
-https://h5bp.org/Front-end-Developer-Interview-Questions/translations/korean/
+[Link1](https://realmojo.tistory.com/300) , [Link2](https://h5bp.org/Front-end-Developer-Interview-Questions/translations/korean/)
 
 위의 두 링크를 참고해 중요도별로 먼저 정리한 뒤 기타 질문들과 답도 추가하려고 합니다.
 
-- 개인적으로 정리한 내용이라 **틀린 부분이 있을 수 있으니** 발견하신다면 PR과 이슈를 날려주시면 감사하겠습니다!
+- 개인적으로 정리한 내용이라 **틀린 부분이 있을 수 있으니** 발견하신다면 PR과 이슈를 날려주시면 감사드리겠습니다!
 
 <br>
 
 ## :star: 중요도5
 
-- [중요도5] 브라우저 렌더링 원리 - 홈페이지가 사용자에게 보여지는 순서에 대해 설명해주세요.
+- [브라우저의 렌더링 과정](https://github.com/Esoolgnah/Frontend-Interview-Questions/main/Notes/important-5/browser-rendering.md) - 홈페이지가 사용자에게 보여지는 순서에 대해 설명해주세요.
 
 <br>
 
