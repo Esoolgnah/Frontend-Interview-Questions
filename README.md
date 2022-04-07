@@ -1,4 +1,4 @@
-# 프론트엔드 면접질문 정리
+# 프론트엔드 면접질문 중요도별 정리
 
 ## 목차
 
@@ -14,11 +14,12 @@
 
 ## :bow: 소개
 
-취업 준비를 하면서 알게된 프론트엔드 분야의 면접 질문들과 답을 용어 해석과 함께 요약, 정리하고 있습니다.
+취업 준비를 하면서 알게된 프론트엔드 분야의 면접 질문들과 답을 중요도별로 용어 설명과 함께 정리하고 있습니다.
 <br>
 자세한 내용은 참고 링크를 확인하며 공부하시길 권장드립니다.
 
-[Link1](https://realmojo.tistory.com/300) , [Link2](https://h5bp.org/Front-end-Developer-Interview-Questions/translations/korean/)
+[blog, 프론트엔드 개발자 기술면접 인터뷰 질문 모음](https://realmojo.tistory.com/300)
+[프론트엔드 면접 문제 은행](https://h5bp.org/Front-end-Developer-Interview-Questions/translations/korean/)
 
 위의 두 링크를 참고해 중요도별로 먼저 정리한 뒤 기타 질문들과 답도 추가하려고 합니다.
 
@@ -32,9 +33,11 @@
 
 - [주소창에 google.com을 입력하면 일어나는 일](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/what-happens-when-type-google.md) - 주소창에 google.com을 입력하면 일어나는 일에 대해 말씀해주세요.
 
-- [호이스팅(hoisting)이란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/hoisting.md) - 호이스팅이란 무엇인가요?
+- [호이스팅(hoisting)이란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/hoisting.md) - 호이스팅에 대해서 설명해주세요.
 
-- [클로저(Closure)란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/closure.md) - 클로저란 무엇인가요?
+- [클로저(Closure)란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/closure.md) - 클로저에 대해서 설명해주세요.
+
+- [CSS에서 margin과 padding이란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/margin-padding.md) - CSS에서 margin과 padding에 대해서 설명해주세요.
 
 <br>
 
