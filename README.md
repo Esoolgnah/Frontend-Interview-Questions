@@ -22,7 +22,7 @@
 
 위의 두 링크를 참고해 중요도별로 먼저 정리한 뒤 기타 질문들과 답도 추가하려고 합니다.
 
-- 개인적으로 정리한 내용이라 **틀린 부분이 있을 수 있으니** 발견하신다면 PR과 이슈를 날려주시면 감사드리겠습니다!
+- 개인적으로 정리한 내용이라 **틀린 부분이 있을 수 있으니** 발견시 PR과 이슈를 날려주시면 감사드리겠습니다!
 
 <br>
 
@@ -30,9 +30,11 @@
 
 - [브라우저의 렌더링 원리](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/browser-rendering.md) - 브라우저의 렌더링 원리에 대해 설명해주세요.
 
-- [주소창에 google.com을 입력하면?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/what-happens-when-type-google.md) - 주소창에 google.com을 입력하면 일어나는 일에 대해 말씀해주세요.
+- [주소창에 google.com을 입력하면 일어나는 일](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/what-happens-when-type-google.md) - 주소창에 google.com을 입력하면 일어나는 일에 대해 말씀해주세요.
 
-- [호이스팅](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/hoisting.md) - 호이스팅이란 무엇인가요?
+- [호이스팅(hoisting)이란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/hoisting.md) - 호이스팅이란 무엇인가요?
+
+- [클로저(Closure)란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/closure.md) - 클로저란 무엇인가요?
 
 <br>
 
