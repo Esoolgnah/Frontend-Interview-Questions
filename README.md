@@ -18,7 +18,8 @@
 <br>
 자세한 내용은 참고 링크를 확인하며 공부하시길 권장드립니다.
 
-[blog, 프론트엔드 개발자 기술면접 인터뷰 질문 모음](https://realmojo.tistory.com/300)
+[프론트엔드 개발자 기술면접 인터뷰 질문 모음](https://realmojo.tistory.com/300)
+<br>
 [프론트엔드 면접 문제 은행](https://h5bp.org/Front-end-Developer-Interview-Questions/translations/korean/)
 
 위의 두 링크를 참고해 중요도별로 먼저 정리한 뒤 기타 질문들과 답도 추가하려고 합니다.
