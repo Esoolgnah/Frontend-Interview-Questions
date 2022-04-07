@@ -2,7 +2,7 @@
 
 ## 목차
 
-- [소개](#tada-소개)
+- [소개](#bow-소개)
 - [중요도5:⭐️⭐️⭐️⭐️⭐️](#star-중요도5)
 - [중요도4:⭐️⭐️⭐️⭐️](#star-중요도4)
 - [중요도3:⭐️⭐️⭐️](#star-중요도3)
@@ -12,9 +12,10 @@
 
 <br>
 
-## :tada: 소개
+## :bow: 소개
 
 취업 준비를 하면서 알게된 프론트엔드 분야의 면접 질문들과 답을 용어 해석과 함께 요약, 정리하고 있습니다.
+<br>
 자세한 내용은 참고 링크를 확인하며 공부하시길 권장드립니다.
 
 [Link1](https://realmojo.tistory.com/300) , [Link2](https://h5bp.org/Front-end-Developer-Interview-Questions/translations/korean/)
@@ -30,6 +31,8 @@
 - [브라우저의 렌더링 원리](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/browser-rendering.md) - 브라우저의 렌더링 원리에 대해 설명해주세요.
 
 - [주소창에 google.com을 입력하면?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/what-happens-when-type-google.md) - 주소창에 google.com을 입력하면 일어나는 일에 대해 말씀해주세요.
+
+- [호이스팅](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/hoisting.md) - 호이스팅이란 무엇인가요?
 
 <br>
 
