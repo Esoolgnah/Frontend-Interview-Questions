@@ -44,6 +44,8 @@
 
 - [CSS에서 position이란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/position.md) - CSS에서 position을 어떻게 사용하는지 설명해주세요.
 
+- [REST API란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/rest-api.md) - REST API란 무엇인지 설명해주세요.
+
 <br>
 
 ## :star: 중요도4
