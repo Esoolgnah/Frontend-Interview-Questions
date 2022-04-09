@@ -60,6 +60,10 @@
 
 - [JavaScript는 어떤 언어일까?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/about-javascript.md) - JavaScript는 어떤 언어인가요?
 
+- [JavaScript에서 비동기적으로 코딩하기](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/async-in-javascript.md) - JavaScript에서 비동기적으로 코딩하는 법을 알려주세요.
+
+- [Event Loop](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-loop.md) - Event Loop에 대해 알고 있으신가요?
+
 <br>
 
 ## :star: 중요도3

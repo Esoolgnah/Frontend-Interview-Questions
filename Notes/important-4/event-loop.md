@@ -1,30 +1,6 @@
-# JavaScript는 어떤 언어일까?
+# 자바스크립트 동작 원리([이벤트 루프](#gear-이벤트루프)(Event Loop))
 
-JavaScript는 `싱글 스레드`이면서 `논 블록킹` 언어입니다.
-
-> ### 싱글 스레드 논 블록킹
->
-> - 자바스크립트는 비동기 처리를 통해 싱글 스레드이지만 블록킹 되지 않게 합니다.
->   하나의 요청이 완료될 때까지 기다리지 않고 동시에 다른 작업을 수행함으로써 문제를 해결합니다.
-
-> ### 싱글 스레드
->
-> - 스레드가 하나밖에 존재하지 않아 한번에 하나의 작업만 할 수 있습니다.
-
-> ### 스레드
->
-> - 어떠한 프로그램 내에서, 특히 프로세스 내에서 실행되는 흐름의 단위를 말합니다.
-
-> ### 비동기 처리
->
-> - 특정 로직의 실행이 끝날때까지 기다려주지 않고 나머지 코드를 먼저 실행하는 것입니다.
->   멀티 스레드가 아닌 이유는 동시성 문제(동시에 공유된 자원에 접근하는 경우)를 해결하기 까다롭기 때문입니다.
-
-<br>
-
-### 자바스크립트 동작 원리([이벤트 루프](#gear-이벤트루프)(Event Loop))
-
-<img src="../../Images/important-4/javascript.gif" width="600px">
+<img src="../../Images/important-4/javascript-eventloop.gif" width="600px">
 
 - gif 출처: https://beomy.github.io/tech/javascript/javascript-runtime/
 
@@ -60,5 +36,5 @@ JavaScript는 `싱글 스레드`이면서 `논 블록킹` 언어입니다.
 
 ## 참고
 
-- [blog, 프론트엔드 면접 문제 은행](https://velog.io/@wkahd01/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%A9%B4%EC%A0%91-%EB%AC%B8%EC%A0%9C-%EC%9D%80%ED%96%89-HTML-%EC%A7%88%EB%AC%B8-%EB%8B%B5%EB%B3%80#javascript%EB%8A%94-%EB%AC%B4%EC%8A%A8-%EC%96%B8%EC%96%B4%EC%9D%B8%EA%B0%80)
+- [blog, 프론트엔드 면접 문제 은행](https://velog.io/@wkahd01/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%A9%B4%EC%A0%91-%EB%AC%B8%EC%A0%9C-%EC%9D%80%ED%96%89-HTML-%EC%A7%88%EB%AC%B8-%EB%8B%B5%EB%B3%80#%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84)
 - [blog, 이벤트 루프란?](https://intrepidgeeks.com/tutorial/javascript-what-is-an-active-loop)
