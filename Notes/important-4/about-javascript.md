@@ -46,7 +46,7 @@ JavaScript는 `싱글 스레드`이면서 `논 블록킹` 언어입니다.
 
 ### 자바스크립트 동작 원리([이벤트 루프](#gear-이벤트루프)(Event Loop))
 
-<img src="../../images/important-4/about-javascript-0.gif" width="600px">
+<img src="../../images/important-4/javascript.gif" width="600px">
 
 - gif 출처: https://beomy.github.io/tech/javascript/javascript-runtime/
 
