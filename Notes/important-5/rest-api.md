@@ -1,6 +1,6 @@
 # REST API란?
 
-[REST](#gear-rest) 원칙을 적용하여 서비스 [API](#gear-api)를 설계한 것
+[REST](#gear-rest) 원칙을 적용하여 서비스 [API](#gear-api)를 설계한 것을 말합니다.
 
 ### REST란 무엇인가?
 
