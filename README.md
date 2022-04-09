@@ -54,7 +54,7 @@
 
 - [this의 용법](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/this.md) - this의 용법에 대해 아는대로 설명해주세요.
 
-- [브라우저 저장소의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/web-storage.md)
+- [브라우저 저장소의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/web-storage.md) - 브라우저 저장소의 차이점에 대해 설명해주세요. (LocalStorage,SessionStorage,Cookie)
 
 <br>
 
