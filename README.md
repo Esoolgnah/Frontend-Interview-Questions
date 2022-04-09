@@ -56,6 +56,8 @@
 
 - [브라우저 저장소의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/web-storage.md) - 브라우저 저장소의 차이점에 대해 설명해주세요. (LocalStorage,SessionStorage,Cookie)
 
+- [Restful API](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/restful-api.md) - Restful API에 대해 아는대로 설명해주세요. (GET, PUT, POST, PATCH, OPTION, DELETE)
+
 <br>
 
 ## :star: 중요도3
