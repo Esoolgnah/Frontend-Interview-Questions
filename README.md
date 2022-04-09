@@ -58,6 +58,8 @@
 
 - [Restful API](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/restful-api.md) - Restful API에 대해 아는대로 설명해주세요. (GET, PUT, POST, PATCH, OPTION, DELETE)
 
+- [JavaScript는 어떤 언어일까?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/about-javascript.md) - JavaScript는 어떤 언어인가요?
+
 <br>
 
 ## :star: 중요도3
