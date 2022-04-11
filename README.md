@@ -64,6 +64,8 @@
 
 - [Event Loop](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-loop.md) - Event Loop에 대해 알고 있으신가요?
 
+- [이벤트 전파](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-bubbling.md) - 이벤트 버블링에 대해서 말씀해주세요.
+
 <br>
 
 ## :star: 중요도3
