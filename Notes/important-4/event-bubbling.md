@@ -87,7 +87,7 @@ itemList.addEventListener('click', e => {
 
 - 이벤트 버블링(Event Bubbling)은 특정 화면 요소에서 이벤트가 발생했을 때 해당 이벤트가 더 상위의 화면 요소들로 전달되어 가는 특성을 의미합니다. 아래와 같은 그림처럼요.
 
-<img src="../../Images/important-4/javascript-event-bubbling.png" width="600px">
+<img src="../../Images/important-4/event-bubbling.png" width="600px">
 
 > 하위의 클릭 이벤트가 상위로 전달되어 가는 그림
 
@@ -95,7 +95,7 @@ itemList.addEventListener('click', e => {
 
 - 이벤트 캡처링(Event Capturing)은 이벤트 버블링과 반대 방향으로 진행되는 이벤트 전파 방식입니다.
 
-<img src="../../Images/important-4/javascript-event-capturing.png" width="600px">
+<img src="../../Images/important-4/event-capturing.png" width="600px">
 
 > 클릭 이벤트가 발생한 지점을 찾아내려 가는 그림
 
