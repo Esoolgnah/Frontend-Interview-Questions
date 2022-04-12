@@ -66,6 +66,8 @@
 
 - [이벤트 전파](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-bubbling.md) - 이벤트 버블링에 대해서 말씀해주세요.
 
+- [타입스크립트란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/type-script.md) - 타입 스크리트 사용해 본적이 있나요? 어떤지 말씀해주세요.
+
 <br>
 
 ## :star: 중요도3
