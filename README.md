@@ -68,7 +68,7 @@
 
 - [타입스크립트란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/type-script.md) - 타입 스크리트 사용해 본적이 있나요? 어떤지 말씀해주세요.
 
-- [실행문맥(실행 컨텍스트)](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/execution-context.md)
+- [실행문맥(실행 컨텍스트)](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/execution-context.md) - 실행 문맥에 대해서 설명해주세요.
 
 <br>
 
