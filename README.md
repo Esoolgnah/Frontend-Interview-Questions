@@ -72,7 +72,8 @@
 
 - [SPA, CSR, SSR의 차이](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/spa-scr-ssr.md) - SPA, CSR, SSR의 차이에 대해 설명해주세요.
 
-<br>
+- [null, undefined, undeclared, NaN](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/null-undefined-undeclared-nan.md) - null, undefined, undeclared, NaN 에 대해 설명해주세요.
+  <br>
 
 ## :star: 중요도3
 
