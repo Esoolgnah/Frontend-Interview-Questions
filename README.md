@@ -79,7 +79,7 @@
 
 > JavaScript 프레임워크, 플러그인, 그 외 사용법 등 중요한 질문입니다.
 
-- [HTML 렌더링 중에 JavaScript가 실행되면 렌더링이 멈추는 이유](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/why-stop-rendering.md) - HTML이 렌더링 중에 JavaScript가 실행되면 멈추는데 그 이유는 무엇일까요?
+- [HTML 렌더링 중에 JavaScript가 실행되면 렌더링이 멈추는 이유](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/why-stop-rendering.md) - HTML이 렌더링 중에 JavaScript가 실행되면 멈추는데 그 이유는 무엇일까요?
 
 - []
 
