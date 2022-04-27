@@ -81,7 +81,7 @@
 
 - [HTML 렌더링 중에 JavaScript가 실행되면 렌더링이 멈추는 이유](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/why-stop-rendering.md) - HTML이 렌더링 중에 JavaScript가 실행되면 멈추는데 그 이유는 무엇일까요?
 
-- []
+- [require와 import의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/require-import.md) - require와 import의 차이점에 대해 설명해주세요.
 
 <br>
 
