@@ -27,11 +27,13 @@
 
 <br>
 
-### 이벤트 위임: 이벤트 버블링 활용하기
+### [이벤트 위임](#gear-이벤트위임): 이벤트 버블링 활용하기
 
 이벤트 위임을 사용하지 않고, 동일한 이벤트를 일일히 수동으로 달아주기에는 코드 낭비가 너무 심합니다.
 
 따라서 부모 요소에 이벤트를 부여해 버블링을 통해 하위 요소를 동작시킬때도 해당 이벤트가 발생하도록 만드는 것이 바람직합니다.
+
+<br>
 
 아래와 같은 상황에서
 
@@ -53,7 +55,7 @@
 
 ```js
 let inputs = document.querySelectorAll('input');
-inputs.forEach(input => {
+inputs.forEach((input) => {
   input.addEventListener('click', () => {
     alert('clicked');
   });
@@ -65,7 +67,7 @@ inputs.forEach(input => {
 
 ```js
 let itemList = document.querySelector('.itemList');
-itemList.addEventListener('click', e => {
+itemList.addEventListener('click', (e) => {
   console.log(e);
   if (e.target.type === 'checkbox') {
     alert('click');
@@ -98,6 +100,12 @@ itemList.addEventListener('click', e => {
 <img src="../../Images/important-4/event-capturing.png" width="600px">
 
 > 클릭 이벤트가 발생한 지점을 찾아내려 가는 그림
+
+### :gear: 이벤트위임
+
+- 캡처링과 버블링을 활용하면 강력한 이벤트 핸들링 패턴인 이벤트 위임(event delegation) 을 구현할 수 있습니다.
+  이벤트 위임은 비슷한 방식으로 여러 요소를 다뤄야 할 때 사용됩니다. 이벤트 위임을 사용하면 요소마다 핸들러를 할당하지 않고, 요소의 공통 조상에 이벤트 핸들러를 단 하나만 할당해도 여러 요소를 한꺼번에 다룰 수 있습니다.
+  공통 조상에 할당한 핸들러에서 `event.target`을 이용하면 실제 어디서 이벤트가 발생했는지 알 수 있습니다. 이를 이용해 이벤트를 핸들링합니다.
 
 ### :gear: stopPropagation
 
