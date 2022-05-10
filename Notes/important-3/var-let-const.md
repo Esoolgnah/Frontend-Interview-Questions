@@ -95,7 +95,7 @@ c = 'test' // ReferenceError: c is not defined
 let c
 ```
 
-위에 코드에서 ReferenceError가 발생한 이유는 [tdz](#gear-tdz)(temporal dead zone)때문입니다. <br>
+위의 코드에서 ReferenceError가 발생한 이유는 [tdz](#gear-tdz)(temporal dead zone)때문입니다. <br>
 
 `let`은 값을 할당하기전에 변수가 선언 되어있어야 하는데 그렇지 않기 때문에 에러가 납니다. <br>
 
