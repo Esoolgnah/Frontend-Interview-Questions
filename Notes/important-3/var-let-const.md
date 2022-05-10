@@ -60,8 +60,6 @@ counter()
 console.log('after loop i is', i) // ReferenceError: i is not defined
 ```
 
-<br>
-
 - `function scope`는 함수 내부 스코프를 의미하며 함수 내부에서 선언된 변수는 함수 내부에서만 접근이 가능합니다.
 ```js
 function sayHi () {
@@ -88,7 +86,24 @@ function second () {
 
 `var`가 `function-scoped`로 `hoisting`이 되었다면
 
-`let`, `const`는 `block-scoped`단위로 `hoisting`이 일어나는데
+`let`, `const`는 `block-scoped`단위로 `hoisting`이 일어납니다.
+
+
+### Block Scope
+중괄호({}) 내부에서 let, const 변수를 선언하면 그 변수들은 중괄호 내부에서만 접근이 가능합니다. <br>
+함수도 중괄호로 선언되므로 block scope도 function scope의 부분집합이라고 할 수 있습니다.
+```js
+{
+  const hi = 'Hi there!'
+  console.log(hi) // 'Hi there!'
+}
+
+console.log(hi) // Error, hi is not defined
+```
+
+<br>
+
+<br>
 
 ```js
 c = 'test' // ReferenceError: c is not defined
@@ -106,10 +121,12 @@ let c
 let dd
 dd = 'test'
 
-// const 선언과 동시에 값을 할당 해야한다.
+// const 선언과 동시에 값을 할당 해야합니다.
 const aa // Missing initializer in const declaration
 ```
 이렇게 javascript에 tdz가 필요한 이유는 동적언어이다보니 runtime type check 가 필요해서입니다.
+
+<br>
 
 ### :gear: tdz
 - TDZ(Temporal Dead Zone) 란, 한글로 직역하자면 일시적인 사각지대란 뜻입니다. <br> 이 일시적인 사각지대는 스코프의 시작 지점부터 초기화 시작 지점까지의 구간을 TDZ(Temporal Dead Zone) 라고합니다.
