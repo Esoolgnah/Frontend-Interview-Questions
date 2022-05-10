@@ -83,6 +83,8 @@
 
 - [require와 import의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/require-import.md) - require와 import의 차이점에 대해 설명해주세요.
 
+- [var, let, const의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/var-let-const.md) - var, let, const의 차이점에 대해 설명해주세요.
+
 <br>
 
 ## :star: 중요도2
