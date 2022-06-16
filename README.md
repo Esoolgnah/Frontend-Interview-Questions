@@ -87,6 +87,8 @@
 
 - [sass(scss)의 장점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/sass-scss.md) - SASS(SCSS)를 사용해본 적이 있나요? 기존 CSS와 비교할 때 어떤 면이 더 좋은가요?
 
+- [CORS에 대처하는 방법과 우회하는 방법](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/how-to-handle-cors-error.md) - CORS에 대처하는 방법과 우회하는 방법에 대해 설명해주세요.
+
 <br>
 
 ## :star: 중요도2
