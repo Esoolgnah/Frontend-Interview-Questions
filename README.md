@@ -89,6 +89,8 @@
 
 - [CORS에 대처하는 방법과 우회하는 방법](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/how-to-handle-cors-error.md) - CORS에 대처하는 방법과 우회하는 방법에 대해 설명해주세요.
 
+- [React의 라이프 사이클](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/react-life-cycle.md) - React의 라이프 사이클에 대해 설명해주세요.
+
 <br>
 
 ## :star: 중요도2
