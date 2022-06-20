@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="../../Images/important-3/react-lifecycle.png" width="600px">
+<img src="../../Images/important-3/react-lifecycle.png" width="800px">
 
 > 위의 이미지는 리액트의 생명 주기를 나타낸 화면입니다. 컴포넌트는 `생성 => 업데이트 => 제거`의 생명 주기를 갖고 있습니다. 아래 목록에서 자주 사용되는 메서드는 `코드블럭` 으로 표시하겠습니다. 나머지는 상대적으로 덜 사용됩니다.
 
