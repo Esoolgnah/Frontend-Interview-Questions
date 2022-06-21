@@ -91,6 +91,8 @@
 
 - [React의 라이프 사이클](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/react-life-cycle.md) - React의 라이프 사이클에 대해 설명해주세요.
 
+- [ES6, Arrow 함수](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/es6-arrow-function.md) - ES6에서 Arrow 함수를 언제 쓰나요? 왜 쓰나요?
+
 <br>
 
 ## :star: 중요도2
