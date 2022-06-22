@@ -1,5 +1,7 @@
 # 프론트엔드 면접질문 중요도별 정리
 
+<br>
+
 ## 목차
 
 - [소개](#bow-소개)
@@ -9,6 +11,8 @@
 - [중요도2:⭐️⭐️](#star-중요도2)
 - [중요도1:⭐️](#star-중요도1)
 - [기타질문:🌟](#star2-기타질문)
+
+<br>
 
 <br>
 
@@ -25,6 +29,8 @@
 위의 두 링크를 참고해 중요도별로 먼저 정리한 뒤 기타 질문들과 답도 추가하려고 합니다.
 
 > 개인적으로 정리한 내용이라 **틀린 부분이 있을 수 있으니** 발견시 PR과 이슈를 날려주시면 감사드리겠습니다!
+
+<br>
 
 <br>
 
@@ -45,6 +51,8 @@
 - [CSS에서 position이란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/position.md) - CSS에서 position을 어떻게 사용하는지 설명해주세요.
 
 - [REST API란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/rest-api.md) - REST API란 무엇인지 설명해주세요.
+
+<br>
 
 <br>
 
@@ -73,7 +81,10 @@
 - [SPA, CSR, SSR의 차이](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/spa-scr-ssr.md) - SPA, CSR, SSR의 차이에 대해 설명해주세요.
 
 - [null, undefined, undeclared, NaN](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/null-undefined-undeclared-nan.md) - null, undefined, undeclared, NaN 에 대해 설명해주세요.
-  <br>
+
+<br>
+
+<br>
 
 ## :star: 중요도3
 
@@ -95,6 +106,8 @@
 
 <br>
 
+<br>
+
 ## :star: 중요도2
 
 > 가볍고 기본적인 질문입니다.
@@ -103,11 +116,15 @@
 
 <br>
 
+<br>
+
 ## :star: 중요도1
 
 > 알면 가산점이나 모른다고 크게 등락에 영향은 없습니다.
 
 - [중요도1] 스켈레톤 UI에 대해서 적용해본 적이 있나요?
+
+<br>
 
 <br>
 
