@@ -103,6 +103,21 @@ itemList.addEventListener('click', (e) => {
 
 <br>
 
+```html
+<div class="outside">
+  녹색 영역
+  <div class="middle">
+    하늘색 영역
+    <div class="inner">
+      핑크색 영역
+      <div class="float">회색</div>
+    </div>
+  </div>
+</div>
+```
+
+<br>
+
 ```js
 const outside = document.querySelector('.outside');
 const middle = document.querySelector('.middle');
