@@ -101,6 +101,40 @@ itemList.addEventListener('click', (e) => {
 
 > 클릭 이벤트가 발생한 지점을 찾아내려 가는 그림
 
+<br>
+
+```js
+const outside = document.querySelector('.outside');
+const middle = document.querySelector('.middle');
+const inner = document.querySelector('.inner');
+const float = document.querySelector('.float');
+
+function callback() {
+  alert(this.className + ' is Capturing!');
+}
+
+outside.addEventListener('click', callback, true);
+middle.addEventListener('click', callback, true);
+inner.addEventListener('click', callback, true);
+float.addEventListener('click', callback, true);
+```
+
+<br>
+
+위 코드는 이벤트 캡처링의 예시입니다. `float`을 클릭하면 `가장 상위 부모요소`인 `outside`의 이벤트부터 발생합니다. 이때 `addEventListener`함수의 `두번째 인자`로 전달된 `true`는 `이벤트를 캡처링해야하는지 여부`를 지정합니다.
+
+<br>
+
+```js
+target.addEventListener(type, listener[, useCapture]);
+```
+
+<br>
+
+- `type` : 이벤트의 이름을 지정하는 문자열. 대소문자 구별. (click, keypress 등..)
+- `listener` : 이벤트가 발생할때 호출할 이벤트 리스너 함수.
+- `useCapture` : 캠쳐링을 사용할지 여부를 지정하는 Boolean. default는 false 입니다. (선택사항)
+
 ### :gear: 이벤트위임
 
 - 캡처링과 버블링을 활용하면 강력한 이벤트 핸들링 패턴인 이벤트 위임(event delegation) 을 구현할 수 있습니다.
@@ -125,3 +159,4 @@ function logEvent(event) {
 
 - [blog, 프론트엔드 면접 문제 은행](https://velog.io/@wkahd01/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%A9%B4%EC%A0%91-%EB%AC%B8%EC%A0%9C-%EC%9D%80%ED%96%89-HTML-%EC%A7%88%EB%AC%B8-%EB%8B%B5%EB%B3%80#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%A0%84%ED%8C%8C)
 - [blog, 이벤트 버블링,캡처,위임](https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/)
+- [blog, 이벤트 버블링(Bubbling) & 캡쳐링(Capturing)](https://thisblogfor.me/web/bubblingcapturing/)
