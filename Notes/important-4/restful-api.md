@@ -1,6 +1,6 @@
 # Restful API
 
-[`REST API`](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/rest-api.md)를 제공하는 웹사이트를 RESTful 하다고 할 수 있습니다. RESTful API를 통해 이해하고 쉬운 API를 만드는 것이 목적입니다.
+[`REST API`](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/rest-api.md)를 제공하는 웹사이트를 RESTful 하다고 할 수 있습니다. RESTful API를 통해 이해하기 쉬운 API를 만드는 것이 목적입니다.
 
 > - `GET`: 요청받은 URI의 정보를 검색하여 응답합니다.
 > - `POST`: 요청된 자원을 생성합니다.
