@@ -72,6 +72,8 @@
 
 - [Event Loop](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-loop.md) - Event Loop에 대해 알고 있으신가요?
 
+- [마이크로태스크 큐, 태스크 큐](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/microtask-queue-task-queue.md) - 마이크로태스크 큐와 태스크 큐에 대해서 말씀해주세요.
+
 - [이벤트 전파](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-bubbling.md) - 이벤트 버블링에 대해서 말씀해주세요.
 
 - [타입스크립트란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/type-script.md) - 타입 스크리트 사용해 본적이 있나요? 어떤지 말씀해주세요.
