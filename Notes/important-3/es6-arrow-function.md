@@ -43,7 +43,7 @@ console.log(두배만들기(8));
 <br>
 
 ```js
-let 두배만들기 = (x) => {
+let 두배만들기 = x => {
   return x * 2;
 };
 
