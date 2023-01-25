@@ -148,7 +148,7 @@ target.addEventListener(type, listener[, useCapture]);
 
 - `type` : 이벤트의 이름을 지정하는 문자열. 대소문자 구별. (click, keypress 등..)
 - `listener` : 이벤트가 발생할때 호출할 이벤트 리스너 함수.
-- `useCapture` : 캠쳐링을 사용할지 여부를 지정하는 Boolean. default는 false 입니다. (선택사항)
+- `useCapture` : 캡쳐링을 사용할지 여부를 지정하는 Boolean. default는 false 입니다. (선택사항)
 
 ### :gear: 이벤트위임
 
