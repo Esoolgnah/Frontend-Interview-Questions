@@ -27,7 +27,7 @@ a = 'test3'     // 가능
 
 // const
 const b = 'test'
-const b = 'test2' // Uncaught SyntaxError: Identifier 'a' has already been declared
+const b = 'test2' // Uncaught SyntaxError: Identifier 'b' has already been declared
 b = 'test3'    // Uncaught TypeError:Assignment to constant variable.
 ```
 
@@ -40,7 +40,7 @@ b = 'test3'    // Uncaught TypeError:Assignment to constant variable.
 ## :hammer_and_wrench: 용어 공부
 
 ### :gear: function-scoped
-- `var`는 `function-scoped`이기 때문에 for문이 끝난다음에 i를 호출하면 값이 출력이 잘 됩니다.
+- `var`는 `function-scoped`이기 때문에 for문이 끝난다음에 j를 호출하면 값이 출력이 잘 됩니다.
 - 그 이유는 `var`가 [`hoisting`](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/hoisting.md)이 되었기 때문입니다.
 
 ```js
