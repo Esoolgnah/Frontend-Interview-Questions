@@ -1,6 +1,6 @@
 # 이벤트 전파
 
-생성된 이벤트 객체는 이벤트를 발생시킨 DOM 요소인 이벤트 타깃을 중심으로 DOM트리를 통해 전파됩니다.
+생성된 이벤트 객체는 이벤트를 발생시킨 DOM 요소인 이벤트 타깃을 중심으로 DOM 트리를 통해 전파됩니다.
 
 <br>
 
@@ -16,7 +16,7 @@
 
 <br>
 
-+) 이벤트 버블링과 캡처링를 막기 위해서 [e.stopPropagation()](#gear-stoppropagation)을 사용합니다.
++) 이벤트 버블링과 캡처링을 막기 위해서 [e.stopPropagation()](#gear-stoppropagation)을 사용합니다.
 해당 웹 API를 통해 이벤트가 전파되는 것을 막을 수 있습니다.
 
 <br>
@@ -29,9 +29,9 @@
 
 ### [이벤트 위임](#gear-이벤트위임): 이벤트 버블링 활용하기
 
-이벤트 위임을 사용하지 않고, 동일한 이벤트를 일일히 수동으로 달아주기에는 코드 낭비가 너무 심합니다.
+이벤트 위임을 사용하지 않고, 동일한 이벤트를 일일이 수동으로 달아주기에는 코드 낭비가 너무 심합니다.
 
-따라서 부모 요소에 이벤트를 부여해 버블링을 통해 하위 요소를 동작시킬때도 해당 이벤트가 발생하도록 만드는 것이 바람직합니다.
+따라서 부모 요소에 이벤트를 부여해 버블링을 통해 하위 요소를 동작시킬 때도 해당 이벤트가 발생하도록 만드는 것이 바람직합니다.
 
 <br>
 
@@ -136,7 +136,7 @@ float.addEventListener('click', callback, true);
 
 <br>
 
-위 코드는 이벤트 캡처링의 예시입니다. `float`을 클릭하면 `가장 상위 부모요소`인 `outside`의 이벤트부터 발생합니다. 이때 `addEventListener`함수의 `두번째 인자`로 전달된 `true`는 `이벤트를 캡처링해야하는지 여부`를 지정합니다.
+위 코드는 이벤트 캡처링의 예시입니다. `float`을 클릭하면 `가장 상위 부모 요소`인 `outside`의 이벤트부터 발생합니다. 이때 `addEventListener` 함수의 `두 번째 인자`로 전달된 `true`는 `이벤트를 캡처링해야 하는지 여부`를 지정합니다.
 
 <br>
 
@@ -148,7 +148,7 @@ target.addEventListener(type, listener[, useCapture]);
 
 - `type` : 이벤트의 이름을 지정하는 문자열. 대소문자 구별. (click, keypress 등..)
 - `listener` : 이벤트가 발생할때 호출할 이벤트 리스너 함수.
-- `useCapture` : 캡쳐링을 사용할지 여부를 지정하는 Boolean. default는 false 입니다. (선택사항)
+- `useCapture` : 캡처링을 사용할지 여부를 지정하는 Boolean. 기본값은 false입니다. (선택사항)
 
 ### :gear: 이벤트위임
 
@@ -166,7 +166,7 @@ function logEvent(event) {
 }
 ```
 
-위 API는 해당 이벤트가 전파되는 것을 막습니다. 따라서, 이벤트 버블링의 경우에는 클릭한 요소의 이벤트만 발생시키고 상위 요소로 이벤트를 전달하는 것을 방해합니다. 그리고 이벤트 캡쳐의 경우에는 클릭한 요소의 최상위 요소의 이벤트만 동작시키고 하위 요소들로 이벤트를 전달하지 않습니다.
+위 API는 해당 이벤트가 전파되는 것을 막습니다. 따라서, 이벤트 버블링의 경우에는 클릭한 요소의 이벤트만 발생시키고 상위 요소로 이벤트를 전달하는 것을 방해합니다. 그리고 이벤트 캡처링의 경우에는 클릭한 요소의 최상위 요소의 이벤트만 동작시키고 하위 요소들로 이벤트를 전달하지 않습니다.
 
 <br>
 
@@ -174,4 +174,4 @@ function logEvent(event) {
 
 - [blog, 프론트엔드 면접 문제 은행](https://velog.io/@wkahd01/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%A9%B4%EC%A0%91-%EB%AC%B8%EC%A0%9C-%EC%9D%80%ED%96%89-HTML-%EC%A7%88%EB%AC%B8-%EB%8B%B5%EB%B3%80#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%A0%84%ED%8C%8C)
 - [blog, 이벤트 버블링,캡처,위임](https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/)
-- [blog, 이벤트 버블링(Bubbling) & 캡쳐링(Capturing)](https://thisblogfor.me/web/bubblingcapturing/)
+- [blog, 이벤트 버블링(Bubbling) & 캡처링(Capturing)](https://thisblogfor.me/web/bubblingcapturing/)

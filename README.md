@@ -18,7 +18,7 @@
 
 ## :bow: 소개
 
-취업 준비를 하면서 알게된 프론트엔드 분야의 면접 질문들과 답을 중요도별로 용어 설명과 함께 정리하고 있습니다.
+취업 준비를 하면서 알게 된 프론트엔드 분야의 면접 질문들과 답을 중요도별로 용어 설명과 함께 정리하고 있습니다.
 <br>
 자세한 내용은 참고 링크를 확인하며 공부하시길 권장드립니다.
 
@@ -28,7 +28,7 @@
 
 위의 두 링크를 참고해 중요도별로 먼저 정리한 뒤 기타 질문들과 답도 추가하려고 합니다.
 
-> 개인적으로 정리한 내용이라 **틀린 부분이 있을 수 있으니** 발견시 PR과 이슈를 날려주시면 감사드리겠습니다!
+> 개인적으로 정리한 내용이라 **틀린 부분이 있을 수 있으니** 발견 시 PR과 이슈를 날려주시면 감사드리겠습니다!
 
 <br>
 
@@ -62,11 +62,11 @@
 
 > 90% 이상을 알아야 하며 많이 대답한다고 좋은게 아니라 정확하게 대답해야 합니다. 본인이 프론트엔드 엔지니어라고 말하고 싶다면 필수적으로 알아야 합니다.
 
-- [this의 용법](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/this.md) - this의 용법에 대해 아는대로 설명해주세요.
+- [this의 용법](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/this.md) - this의 용법에 대해 아는 대로 설명해주세요.
 
-- [브라우저 저장소의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/web-storage.md) - 브라우저 저장소의 차이점에 대해 설명해주세요. (LocalStorage,SessionStorage,Cookie)
+- [브라우저 저장소의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/web-storage.md) - 브라우저 저장소의 차이점에 대해 설명해주세요. (LocalStorage, SessionStorage, Cookie)
 
-- [Restful API](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/restful-api.md) - Restful API에 대해 아는대로 설명해주세요. (GET, PUT, POST, PATCH, OPTION, DELETE)
+- [RESTful API](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/restful-api.md) - RESTful API에 대해 아는 대로 설명해주세요. (GET, PUT, POST, PATCH, OPTION, DELETE)
 
 - [JavaScript는 어떤 언어일까?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/about-javascript.md) - JavaScript는 어떤 언어인가요?
 
@@ -78,7 +78,7 @@
 
 - [이벤트 전파](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-bubbling.md) - 이벤트 버블링에 대해서 말씀해주세요.
 
-- [타입스크립트란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/type-script.md) - 타입 스크립트 사용해 본적이 있나요? 어떤지 말씀해주세요.
+- [타입스크립트란?](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/type-script.md) - 타입스크립트를 사용해 본 적이 있나요? 어떤지 말씀해주세요.
 
 - [실행문맥(실행 컨텍스트)](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/execution-context.md) - 실행 문맥에 대해서 설명해주세요.
 
@@ -100,7 +100,7 @@
 
 - [var, let, const의 차이점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/var-let-const.md) - var, let, const의 차이점에 대해 설명해주세요.
 
-- [sass(scss)의 장점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/sass-scss.md) - SASS(SCSS)를 사용해본 적이 있나요? 기존 CSS와 비교할 때 어떤 면이 더 좋은가요?
+- [sass(scss)의 장점](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/sass-scss.md) - Sass(SCSS)를 사용해 본 적이 있나요? 기존 CSS와 비교할 때 어떤 면이 더 좋은가요?
 
 - [CORS에 대처하는 방법과 우회하는 방법](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-3/how-to-handle-cors-error.md) - CORS에 대처하는 방법과 우회하는 방법에 대해 설명해주세요.
 
@@ -116,7 +116,7 @@
 
 > 가볍고 기본적인 질문입니다.
 
-- [중요도2] CSS에는 Box-model이라는 것이 있습니다.이 때 width의 값을 차지하는 크기는 어떻게 될까요?
+- [중요도2] CSS에는 Box-model이라는 것이 있습니다. 이때 width의 값을 차지하는 크기는 어떻게 될까요?
 
 <br>
 

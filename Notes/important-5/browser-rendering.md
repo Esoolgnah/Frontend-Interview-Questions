@@ -1,12 +1,12 @@
 # 브라우저의 렌더링 원리
 
-브라우저가 화면에 나타나는 요소를 렌더링 할 때, 웹킷(Webkit)이나 게코(Gecko) 등과 같은 [렌더링엔진](#gear-렌더링엔진) 을 사용합니다. 렌더링 엔진이 HTML, CSS, Javascript로 렌더링할 때 [CRP](#gear-crp)라는 프로세스를 사용하며 다음 단계들로 이루어집니다.
+브라우저가 화면에 나타나는 요소를 렌더링할 때, 웹킷(Webkit)이나 게코(Gecko) 등과 같은 [렌더링엔진](#gear-렌더링엔진) 을 사용합니다. 렌더링 엔진이 HTML, CSS, JavaScript로 렌더링할 때 [CRP](#gear-crp)라는 프로세스를 사용하며 다음 단계들로 이루어집니다.
 
 <br>
 
-1. **HTML를 [파싱](#gear-파싱) 후, [DOM](#gear-dom)트리를 구축합니다.**
+1. **HTML을 [파싱](#gear-파싱) 후, [DOM](#gear-dom) 트리를 구축합니다.**
 2. **CSS를 파싱 후, [CSSOM](#gear-cssom)트리를 구축합니다.**
-3. **Javascript를 실행합니다.**
+3. **JavaScript를 실행합니다.**
    - 주의! HTML 중간에 스크립트가 있다면 HTML 파싱이 중단됩니다.
 4. **DOM과 CSSOM을 조합하여 [렌더트리](#gear-렌더트리)를 구축합니다.**
    - 주의! `display: none` 속성과 같이 화면에서 보이지도 않고 공간을 차지하지 않는 것은 렌더트리로 구축되지 않습니다.
@@ -23,11 +23,11 @@
 
 ### :gear: 렌더링엔진
 
-- 브라우저 마다 다르지만, 브라우저는 렌더링을 수행하는 렌더링 엔진을 가지고 있습니다. 크롬은 블링크(Blink), 사파리는 웹킷(Webkit) 그리고 파이어폭스는 게코(Gecko)라는 렌더링 엔진을 사용합니다.
+- 브라우저마다 다르지만, 브라우저는 렌더링을 수행하는 렌더링 엔진을 가지고 있습니다. 크롬은 블링크(Blink), 사파리는 웹킷(Webkit) 그리고 파이어폭스는 게코(Gecko)라는 렌더링 엔진을 사용합니다.
 
 ### :gear: CRP
 
-- CRP (Critical Rendering Path, 중요 렌더링 경로)는 브라우저가 HTML, CSS, Javascipt를 화면에 픽셀로 변화하는 일련의 단계를 말합니다. CRP는 Document Object Model (DOM), CSS Object Model (CSSOM), 렌더 트리 그리고 레이아웃을 포함합니다.
+- CRP (Critical Rendering Path, 중요 렌더링 경로)는 브라우저가 HTML, CSS, JavaScript를 화면에 픽셀로 변화하는 일련의 단계를 말합니다. CRP는 Document Object Model (DOM), CSS Object Model (CSSOM), 렌더 트리 그리고 레이아웃을 포함합니다.
 
 ### :gear: 파싱
 
@@ -35,11 +35,11 @@
 
 ### :gear: DOM
 
-- **DOM(Document Object Model)이란?** 웹 페이지를 이루는 태그들을 자바스크립트가 이용할 수 있게끔 브라우저가 트리구조로 만든 객체 모델을 의미합니다. 영어 뜻풀이 그대로 하자면 문서 객체 모델을 의미합니다. 문서 객체란 html, head, body와 같은 태그들을 javascript가 이용할 수 있는 (메모리에 보관할 수 있는) 객체를 의미합니다. DOM은 HTML과 스크립팅 언어(JavaScript)를 서로 이어주는 역할을 합니다.
+- **DOM(Document Object Model)이란?** 웹 페이지를 이루는 태그들을 자바스크립트가 이용할 수 있게끔 브라우저가 트리 구조로 만든 객체 모델을 의미합니다. 영어 뜻풀이 그대로 하자면 문서 객체 모델을 의미합니다. 문서 객체란 html, head, body와 같은 태그들을 JavaScript가 이용할 수 있는 (메모리에 보관할 수 있는) 객체를 의미합니다. DOM은 HTML과 스크립팅 언어(JavaScript)를 서로 이어주는 역할을 합니다.
 
 ### :gear: CSSOM
 
-- **CSSOM(CSS Object Model)이란?** CSS 내용을 파싱하여 자료를 구조화 한 것을 CSSOM이라고 합니다. 즉 DOM처럼 CSS의 내용을 해석하고 노드를 만들어 트리 구조로 만든 것을 CSSOM이라 합니다.
+- **CSSOM(CSS Object Model)이란?** CSS 내용을 파싱하여 자료를 구조화한 것을 CSSOM이라고 합니다. 즉 DOM처럼 CSS의 내용을 해석하고 노드를 만들어 트리 구조로 만든 것을 CSSOM이라 합니다.
 
 ### :gear: 렌더트리
 

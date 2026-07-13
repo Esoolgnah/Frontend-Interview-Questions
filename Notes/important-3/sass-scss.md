@@ -1,6 +1,6 @@
 # sass(scss)의 장점(특징)
 
-## 1. 변수 사용가능
+## 1. 변수 사용 가능
 
 선언방법
 변수 타입 : `숫자, 문자열, 색상, boolean, null, lists, maps`
@@ -9,13 +9,13 @@
 $변수명: 속성값;
 ```
 
-## 2. 수학 연산자 사용가능
+## 2. 수학 연산자 사용 가능
 
-사용가능 연산자 : `+, -, /, *, %, ==, !=`
+사용 가능 연산자 : `+, -, /, *, %, ==, !=`
 
 > ### 주의
 >
-> `+, -` 연산시에는 단위 통일 <br> `나눔기호` 사용시에는 괄호로 묶어서 사용
+> `+, -` 연산 시에는 단위 통일 <br> `나눔 기호` 사용 시에는 괄호로 묶어서 사용
 
 ## 3. Nesting 기능
 
@@ -94,7 +94,7 @@ a {
 
 ## 4. `import`와 `extend`
 
-`@import` 지시어를 사용해서 다른 scss 파일을 import할 수 있다
+`@import` 지시어를 사용해서 다른 SCSS 파일을 import할 수 있다
 
 `@extend` 지시어를 사용하여 특정 선택자의 속성을 상속받을 수 있다
 
@@ -160,9 +160,9 @@ a {
 }
 ```
 
-## 6. 믹스인(Mixin)
+## 5. 믹스인(Mixin)
 
-공통적으로 쓰이는 css 속성들을 묶어서 재사용이 가능하게 하는 기능
+공통적으로 쓰이는 CSS 속성들을 묶어서 재사용이 가능하게 하는 기능
 
 `parameter`를 받을 수 있다
 
@@ -224,9 +224,9 @@ h1 {
 }
 ```
 
-## 7. 커스텀 함수 사용
+## 6. 커스텀 함수 사용
 
-함수 정의는 `@function` ,리턴값은 `@return`
+함수 정의는 `@function`, 리턴값은 `@return`
 
 ```scss
 $grid-width: 40px;
@@ -235,16 +235,16 @@ $gutter-width: 10px;
    @return $n * $grid-width + ($n -1 ) * $gutter-width;
 }
 #sidebar { width: grid-width(5); } // 믹스인과 달리 @include를 쓰지 않는다.
-내장함수도 사용 가능
+// 내장 함수도 사용 가능
 ```
 
-## 8. 흐름제어
+## 7. 흐름제어
 
 분기문 : `@if`절 사용
 
 `@if` 표현식 { ... } `@else`
 
-`if` 표현식 { ... } `@else` { ... }
+`@if` 표현식 { ... } `@else` { ... }
 
 ```scss
 @mixin hcolor($n) {
@@ -257,7 +257,7 @@ $gutter-width: 10px;
   @if $brightness < 128 { @return #333; }
   @return #ccc;
 }
-code { color: text-color(200);
+code { color: text-color(200); }
 ```
 
 반복문
@@ -275,7 +275,7 @@ code { color: text-color(200);
 }
 
 // 리스트 내 각 문자열 원소에 대해서...
-@each $animal in puma, sea-slug, egret, alamander {
+@each $animal in puma, sea-slug, egret, salamander {
   .#{$animal}-icon {
     background-image: url('/image/#{$animal}.png');
   }
@@ -299,7 +299,7 @@ $i: 6;
 
 ## :hammer_and_wrench: 용어 공부
 
-### :gear:
+### :gear: SCSS
 
 <br>
 

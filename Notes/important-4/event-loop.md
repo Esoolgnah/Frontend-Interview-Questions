@@ -6,7 +6,7 @@
 
 > - 일반적인 작업은 [콜스택](#gear-콜스택)(Call Stack)에서 이루어집니다.
 > - 시간이 소요되는 작업들(setTimeout, 이벤트, HTTP 요청 메서드 등)은 [WebAPI](#gear-webapi)에서 대기하다가 [콜백큐](#gear-콜백큐)(Callback Queue)로 보내집니다.
-> - Call Stack이 비워져 있을때만 Callback Queue에 저장되어있던 작업들을 Call Stack으로 보냅니다.
+> - Call Stack이 비워져 있을 때만 Callback Queue에 저장되어 있던 작업들을 Call Stack으로 보냅니다.
 
 <br>
 
@@ -26,7 +26,7 @@
 
 ### :gear: webAPI
 
-- Web API는 브라우저에서 제공하는 API로 DOM, Ajax, TimeOut 등이 있습니다. CallStack에서 실행된 비동기 함수는 Web API를 호출하고, Web API는 콜백 함수를 Task Queue에 넣습니다.
+- Web API는 브라우저에서 제공하는 API로 DOM, AJAX, Timer 등이 있습니다. Call Stack에서 실행된 비동기 함수는 Web API를 호출하고, Web API는 콜백 함수를 Task Queue에 넣습니다.
 
 ### :gear: 콜백큐
 

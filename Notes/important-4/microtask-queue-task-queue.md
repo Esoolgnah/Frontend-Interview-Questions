@@ -16,7 +16,7 @@
 
 <br>
 
-익숙한 함수인 Web API의 `setTimeout()` 의 콜백함수가 태스크 큐에 들어가고 `Promise` 의 콜백함수가 마이크로태스크 큐에 들어간다는 것을 알 수 있습니다. [이벤트 루프](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-loop.md)는 각 콜백함수를 태스크/마이크로태스크 큐에서 꺼내쓰는 것인데, 그렇다면 어떤게 먼저일까요?
+익숙한 함수인 Web API의 `setTimeout()` 의 콜백함수가 태스크 큐에 들어가고 `Promise` 의 콜백함수가 마이크로태스크 큐에 들어간다는 것을 알 수 있습니다. [이벤트 루프](https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-4/event-loop.md)는 각 콜백함수를 태스크/마이크로태스크 큐에서 꺼내 쓰는 것인데, 그렇다면 어떤 게 먼저일까요?
 
 <br>
 

@@ -17,7 +17,7 @@
 
 ## 마운트(생성)
 
-컴포넌트의 [인스턴스](gear-)가 생성되어, DOM에 삽입될 때 순서대로 호출됩니다.
+컴포넌트의 [인스턴스](#gear-인스턴스)가 생성되어, DOM에 삽입될 때 순서대로 호출됩니다.
 
 - `constructor()`
 - getDerivedStateFromProps()
@@ -77,7 +77,7 @@ const example = () => {
 };
 ```
 
-> 함수형 컴포넌트에서는 render를 안쓰고 컴포넌트를 렌더링할 수 있습니다.
+> 함수형 컴포넌트에서는 render를 안 쓰고 컴포넌트를 렌더링할 수 있습니다.
 
 <br>
 
@@ -85,7 +85,7 @@ const example = () => {
 
 메서드를 바인딩하거나 state를 초기화하는 작업이 없다면 constructor(생성자)가 없어도 됩니다.
 
-- react 컴포넌트의 생성자는 해당 컴포넌트가 마운트되기 전에 호출됩니다.
+- React 컴포넌트의 생성자는 해당 컴포넌트가 마운트되기 전에 호출됩니다.
 - 생성자를 구현하면, this.props가 생성자 내에서 정의되도록 super(props)를 호출해야 합니다.
 - state의 값을 변경하고자 한다면 constructor() 외부에서 this.setState()를 통해 수정해야 합니다.
 
@@ -97,11 +97,12 @@ class Example extends React.Component {
     constructor(props) {
         super(props);
         this.state = { count: 0 };
+    }
 }
 
 // Hooks
 const Example = () => {
-    const [count,setCount] = useState(0);
+    const [count, setCount] = useState(0);
 }
 ```
 
@@ -134,7 +135,7 @@ const Example = () => {
 }
 ```
 
-> 함수형 Hooks 에서는 useEffect의 [] 의존성 배열을 비워야지만 똑같은 메소드를 구현할 수 있습니다.
+> 함수형 Hooks에서는 useEffect의 [] 의존성 배열을 비워야 똑같은 메서드를 구현할 수 있습니다.
 
 <br>
 
@@ -167,14 +168,14 @@ const Example = () => {
 컴포넌트가 마운트 해제되어 제거되기 직전에 호출됩니다.
 
 - 타이머 제거, 네트워크 요청 취소, componentDidMount()에서 생성된 작업 등을 정리할 때 사용됩니다.
-- 실행 직후 컴포넌트는 렌더링되지 않으므로 setState()를 호출하면 안됩니다.
+- 실행 직후 컴포넌트는 렌더링되지 않으므로 setState()를 호출하면 안 됩니다.
 
 <br>
 
 ```js
 // Class
 class Example extends React.Component {
-    coomponentWillUnmount() {
+    componentWillUnmount() {
         ...
     }
 }
@@ -201,7 +202,7 @@ const Example = () => {
 
 ### :gear: 인스턴스
 
-인스턴스(instance)란 객체 지향 프로그래밍(OOP)에서 클래스(class)에 소속된 개별적인 객체를 말합니다. 예를 들어, 사용자(user)라는 클래스를 정의하고 홍길동(hong)이라는 객체를 생성할 경우, hong이라는 객체는 user라는 클래스의 인스턴스가 됩니다. 하나의 클래스를 사용하여 유사한 성질을 가진 수많은 인스턴스를 생성할 수 있습니다. 이 때 추상적인 개념인 클래스에서 실제 객체를 생성하는 것을 인스턴스화(instantiation)한다고 말합니다.
+인스턴스(instance)란 객체 지향 프로그래밍(OOP)에서 클래스(class)에 소속된 개별적인 객체를 말합니다. 예를 들어, 사용자(user)라는 클래스를 정의하고 홍길동(hong)이라는 객체를 생성할 경우, hong이라는 객체는 user라는 클래스의 인스턴스가 됩니다. 하나의 클래스를 사용하여 유사한 성질을 가진 수많은 인스턴스를 생성할 수 있습니다. 이때 추상적인 개념인 클래스에서 실제 객체를 생성하는 것을 인스턴스화(instantiation)한다고 말합니다.
 
 <br>
 
